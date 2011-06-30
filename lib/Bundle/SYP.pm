@@ -3,7 +3,7 @@ package Bundle::SYP;
 # ABSTRACT: SYP's cozy environment
 
 use strict;
-our $VERSION = '0.1'; # VERSION
+our $VERSION = '0.2'; # VERSION
 
 1;
 
@@ -19,13 +19,17 @@ Bundle::SYP - SYP's cozy environment
 
 =head1 VERSION
 
-version 0.1
+version 0.2
 
 =head1 SYNOPSIS
 
  perl -MCPAN -e 'install Bundle::SYP'
 
 =head1 CONTENTS
+
+Object::ID
+
+Term::ANSIColor
 
 AnyEvent
 
@@ -35,13 +39,17 @@ App::cpanminus
 
 App::cpanoutdated
 
-DBD::SQLite
-
-DBI
+Config::General
 
 DB_File
 
+Daemon::Generic
+
 Data::Printer
+
+DateTime::Format::Strptime
+
+Devel::NYTProf
 
 Devel::REPL
 
@@ -75,6 +83,8 @@ Dist::Zilla::PluginBundle::TestingMania
 
 EV
 
+File::Slurp
+
 Geo::Distance
 
 Geo::GoogleEarth::Pluggable
@@ -93,11 +103,15 @@ LWP::Simple
 
 Mojolicious
 
-MongoDB
-
 Moose
 
+Number::Format
+
+Perl::Critic
+
 Perl::Tags
+
+Perl::Tidy
 
 Pod::Elemental
 
@@ -134,6 +148,8 @@ URI::sftp
 Unicode::CheckUTF8
 
 WWW::Curl
+
+XML::SAX::ExpatXS
 
 common::sense
 
