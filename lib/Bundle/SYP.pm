@@ -3,7 +3,7 @@ package Bundle::SYP;
 # ABSTRACT: SYP's cozy environment
 
 use strict;
-our $VERSION = '0.2'; # VERSION
+our $VERSION = '0.3'; # VERSION
 
 1;
 
@@ -19,17 +19,22 @@ Bundle::SYP - SYP's cozy environment
 
 =head1 VERSION
 
-version 0.2
+version 0.3
 
 =head1 SYNOPSIS
+
+ # Ubuntu Server 10.04.2 LTS
+ apt-get install curl gcc git-core libcurl4-gnutls-dev libexpat-dev libncurses-dev libreadline-dev
 
  perl -MCPAN -e 'install Bundle::SYP'
 
 =head1 CONTENTS
 
-Object::ID
+YAML
 
 Term::ANSIColor
+
+Object::ID
 
 AnyEvent
 
@@ -74,8 +79,6 @@ Dist::Zilla::Plugin::OurPkgVersion
 Dist::Zilla::Plugin::PodWeaver
 
 Dist::Zilla::Plugin::ReadmeAnyFromPod
-
-Dist::Zilla::Plugin::VersionFromModule
 
 Dist::Zilla::PluginBundle::Git
 
