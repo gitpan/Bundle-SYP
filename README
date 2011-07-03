@@ -2,7 +2,7 @@ NAME
     Bundle::SYP - SYP's cozy environment
 
 VERSION
-    version 0.3
+    version 0.4
 
 SYNOPSIS
      # Ubuntu Server 10.04.2 LTS
@@ -24,6 +24,10 @@ CONTENTS
     App::cpanminus
 
     App::cpanoutdated
+
+    Bash::Completion::Plugins::cpanm
+
+    Bash::Completion::Plugins::perlbrew
 
     Config::General
 
@@ -138,6 +142,15 @@ CONTENTS
     common::sense
 
     lexicals
+
+CAVEATS
+    I know there's a "Task::" way of doing it, and I could also play around
+    with "[Prereqs]" section of my dist.ini, and that using Dist::Zilla to
+    make a "Bundle::" is an overkill.
+
+    But I simply like to stick with the idea that the first three modules
+    (YAML, Term::ANSIColor, Object::ID) will be installed before the rest,
+    disregarding the alphabetical order.
 
 AUTHOR
     Stanislaw Pusep <stas@sysd.org>

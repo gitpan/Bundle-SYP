@@ -13,9 +13,9 @@ meta-spec:
   version: 1.4
 name: Bundle-SYP
 requires:
-  perl: 5.006
+  perl: 5.008
 resources:
   bugtracker: https://github.com/creaktive/Bundle-SYP/issues
   homepage: https://github.com/creaktive/Bundle-SYP
   repository: git://github.com/creaktive/Bundle-SYP.git
-version: 0.3
+version: 0.4

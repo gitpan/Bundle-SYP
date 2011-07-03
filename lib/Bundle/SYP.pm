@@ -3,7 +3,9 @@ package Bundle::SYP;
 # ABSTRACT: SYP's cozy environment
 
 use strict;
-our $VERSION = '0.3'; # VERSION
+use utf8;
+use warnings 'all';
+our $VERSION = '0.4'; # VERSION
 
 1;
 
@@ -19,7 +21,7 @@ Bundle::SYP - SYP's cozy environment
 
 =head1 VERSION
 
-version 0.3
+version 0.4
 
 =head1 SYNOPSIS
 
@@ -43,6 +45,10 @@ App::Ack
 App::cpanminus
 
 App::cpanoutdated
+
+Bash::Completion::Plugins::cpanm
+
+Bash::Completion::Plugins::perlbrew
 
 Config::General
 
@@ -157,6 +163,12 @@ XML::SAX::ExpatXS
 common::sense
 
 lexicals
+
+=head1 CAVEATS
+
+B<I know> there's a C<Task::> way of doing it, and I could also play around with C<[Prereqs]> section of my F<dist.ini>, and that using L<Dist::Zilla> to make a C<Bundle::> is an overkill.
+
+But I simply like to stick with the idea that the first three modules (L<YAML>, L<Term::ANSIColor>, L<Object::ID>) will be installed B<before> the rest, disregarding the alphabetical order.
 
 =head1 AUTHOR
 
