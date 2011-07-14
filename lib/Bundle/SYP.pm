@@ -5,7 +5,7 @@ package Bundle::SYP;
 use strict;
 use utf8;
 use warnings 'all';
-our $VERSION = '0.4'; # VERSION
+our $VERSION = '0.5'; # VERSION
 
 1;
 
@@ -21,7 +21,7 @@ Bundle::SYP - SYP's cozy environment
 
 =head1 VERSION
 
-version 0.4
+version 0.5
 
 =head1 SYNOPSIS
 
@@ -45,6 +45,8 @@ App::Ack
 App::cpanminus
 
 App::cpanoutdated
+
+App::pmodinfo
 
 Bash::Completion::Plugins::cpanm
 
@@ -70,6 +72,8 @@ Digest::MD5
 
 Digest::SHA
 
+Digest::SHA1
+
 Dist::Zilla
 
 Dist::Zilla::Plugin::CopyFilesFromBuild
@@ -92,6 +96,8 @@ Dist::Zilla::PluginBundle::TestingMania
 
 EV
 
+File::ShareDir
+
 File::Slurp
 
 Geo::Distance
@@ -109,6 +115,8 @@ List::MoreUtils
 Log::Log4perl
 
 LWP::Simple
+
+Memoize
 
 Mojolicious
 

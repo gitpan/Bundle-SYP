@@ -2,7 +2,7 @@ NAME
     Bundle::SYP - SYP's cozy environment
 
 VERSION
-    version 0.4
+    version 0.5
 
 SYNOPSIS
      # Ubuntu Server 10.04.2 LTS
@@ -24,6 +24,8 @@ CONTENTS
     App::cpanminus
 
     App::cpanoutdated
+
+    App::pmodinfo
 
     Bash::Completion::Plugins::cpanm
 
@@ -49,6 +51,8 @@ CONTENTS
 
     Digest::SHA
 
+    Digest::SHA1
+
     Dist::Zilla
 
     Dist::Zilla::Plugin::CopyFilesFromBuild
@@ -71,6 +75,8 @@ CONTENTS
 
     EV
 
+    File::ShareDir
+
     File::Slurp
 
     Geo::Distance
@@ -88,6 +94,8 @@ CONTENTS
     Log::Log4perl
 
     LWP::Simple
+
+    Memoize
 
     Mojolicious
 
