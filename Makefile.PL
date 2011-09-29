@@ -9,20 +9,20 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'SYP\'s cozy environment',
-  'AUTHOR' => 'Stanislaw Pusep <stas@sysd.org>',
-  'BUILD_REQUIRES' => {},
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.30'
+  "ABSTRACT" => "SYP's cozy environment",
+  "AUTHOR" => "Stanislaw Pusep <stas\@sysd.org>",
+  "BUILD_REQUIRES" => {},
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'Bundle-SYP',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'Bundle::SYP',
-  'PREREQ_PM' => {},
-  'VERSION' => '0.5',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "DISTNAME" => "Bundle-SYP",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "Bundle::SYP",
+  "PREREQ_PM" => {},
+  "VERSION" => "0.6",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 
