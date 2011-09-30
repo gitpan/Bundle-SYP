@@ -2,7 +2,7 @@ NAME
     Bundle::SYP - SYP's cozy environment
 
 VERSION
-    version 0.6
+    version 0.7
 
 SYNOPSIS
      # Debian >= 5.0; Perl >= 5.14
@@ -32,6 +32,8 @@ CONTENTS
     Bash::Completion::Plugins::perlbrew
 
     Config::General
+
+    DBD::SQLite
 
     DB_File
 
@@ -99,6 +101,8 @@ CONTENTS
 
     Mojolicious
 
+    MongoDB
+
     Moose
 
     MooseX::NonMoose
@@ -134,6 +138,8 @@ CONTENTS
     Text::CSV
 
     Text::CSV_XS
+
+    Text::TabularDisplay
 
     Text::Unidecode
 

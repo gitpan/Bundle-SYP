@@ -5,7 +5,7 @@ package Bundle::SYP;
 use strict;
 use utf8;
 use warnings 'all';
-our $VERSION = '0.6'; # VERSION
+our $VERSION = '0.7'; # VERSION
 
 1;
 
@@ -21,7 +21,7 @@ Bundle::SYP - SYP's cozy environment
 
 =head1 VERSION
 
-version 0.6
+version 0.7
 
 =head1 SYNOPSIS
 
@@ -53,6 +53,8 @@ Bash::Completion::Plugins::cpanm
 Bash::Completion::Plugins::perlbrew
 
 Config::General
+
+DBD::SQLite
 
 DB_File
 
@@ -120,6 +122,8 @@ Memoize
 
 Mojolicious
 
+MongoDB
+
 Moose
 
 MooseX::NonMoose
@@ -155,6 +159,8 @@ Term::ReadLine::Gnu
 Text::CSV
 
 Text::CSV_XS
+
+Text::TabularDisplay
 
 Text::Unidecode
 
