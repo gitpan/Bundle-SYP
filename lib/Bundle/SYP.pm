@@ -5,7 +5,7 @@ package Bundle::SYP;
 use strict;
 use utf8;
 use warnings 'all';
-our $VERSION = '0.8'; # VERSION
+our $VERSION = '0.9'; # VERSION
 
 1;
 
@@ -21,7 +21,7 @@ Bundle::SYP - SYP's cozy environment
 
 =head1 VERSION
 
-version 0.8
+version 0.9
 
 =head1 SYNOPSIS
 
@@ -181,6 +181,8 @@ URI::sftp
 Unicode::CheckUTF8
 
 WWW::Curl
+
+XML::Rabbit
 
 XML::SAX::ExpatXS
 

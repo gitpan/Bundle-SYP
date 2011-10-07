@@ -20,7 +20,7 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Bundle::SYP",
   "PREREQ_PM" => {},
-  "VERSION" => "0.8",
+  "VERSION" => "0.9",
   "test" => {
     "TESTS" => "t/*.t"
   }

@@ -2,7 +2,7 @@ NAME
     Bundle::SYP - SYP's cozy environment
 
 VERSION
-    version 0.8
+    version 0.9
 
 SYNOPSIS
      # Debian >= 5.0; Perl >= 5.14
@@ -160,6 +160,8 @@ CONTENTS
     Unicode::CheckUTF8
 
     WWW::Curl
+
+    XML::Rabbit
 
     XML::SAX::ExpatXS
 
