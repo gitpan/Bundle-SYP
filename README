@@ -2,7 +2,7 @@ NAME
     Bundle::SYP - SYP's cozy environment
 
 VERSION
-    version 0.7
+    version 0.8
 
 SYNOPSIS
      # Debian >= 5.0; Perl >= 5.14
@@ -34,6 +34,8 @@ CONTENTS
     Config::General
 
     DBD::SQLite
+
+    DBIx::Class
 
     DB_File
 
@@ -76,6 +78,8 @@ CONTENTS
     Dist::Zilla::PluginBundle::TestingMania
 
     EV
+
+    File::Rename
 
     File::ShareDir
 
@@ -160,6 +164,8 @@ CONTENTS
     XML::SAX::ExpatXS
 
     common::sense
+
+    forks
 
     lexicals
 

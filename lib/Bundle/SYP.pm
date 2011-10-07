@@ -5,7 +5,7 @@ package Bundle::SYP;
 use strict;
 use utf8;
 use warnings 'all';
-our $VERSION = '0.7'; # VERSION
+our $VERSION = '0.8'; # VERSION
 
 1;
 
@@ -21,7 +21,7 @@ Bundle::SYP - SYP's cozy environment
 
 =head1 VERSION
 
-version 0.7
+version 0.8
 
 =head1 SYNOPSIS
 
@@ -55,6 +55,8 @@ Bash::Completion::Plugins::perlbrew
 Config::General
 
 DBD::SQLite
+
+DBIx::Class
 
 DB_File
 
@@ -97,6 +99,8 @@ Dist::Zilla::PluginBundle::Git
 Dist::Zilla::PluginBundle::TestingMania
 
 EV
+
+File::Rename
 
 File::ShareDir
 
@@ -181,6 +185,8 @@ WWW::Curl
 XML::SAX::ExpatXS
 
 common::sense
+
+forks
 
 lexicals
 
