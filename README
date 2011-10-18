@@ -2,7 +2,7 @@ NAME
     Bundle::SYP - SYP's cozy environment
 
 VERSION
-    version 0.9
+    version 1.0
 
 SYNOPSIS
      # Debian >= 5.0; Perl >= 5.14
@@ -42,6 +42,8 @@ CONTENTS
     Daemon::Generic
 
     Data::Printer
+
+    Data::Printer::Filter::URI
 
     DateTime::Format::Strptime
 
@@ -113,6 +115,8 @@ CONTENTS
 
     Net::Curl
 
+    Net::Whois::Raw
+
     Number::Format
 
     Perl::Critic
@@ -158,6 +162,8 @@ CONTENTS
     URI::sftp
 
     Unicode::CheckUTF8
+
+    Web::Scraper
 
     WWW::Curl
 

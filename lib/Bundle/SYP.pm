@@ -5,7 +5,7 @@ package Bundle::SYP;
 use strict;
 use utf8;
 use warnings 'all';
-our $VERSION = '0.9'; # VERSION
+our $VERSION = '1.0'; # VERSION
 
 1;
 
@@ -21,7 +21,7 @@ Bundle::SYP - SYP's cozy environment
 
 =head1 VERSION
 
-version 0.9
+version 1.0
 
 =head1 SYNOPSIS
 
@@ -63,6 +63,8 @@ DB_File
 Daemon::Generic
 
 Data::Printer
+
+Data::Printer::Filter::URI
 
 DateTime::Format::Strptime
 
@@ -134,6 +136,8 @@ MooseX::NonMoose
 
 Net::Curl
 
+Net::Whois::Raw
+
 Number::Format
 
 Perl::Critic
@@ -179,6 +183,8 @@ URI::QueryParam
 URI::sftp
 
 Unicode::CheckUTF8
+
+Web::Scraper
 
 WWW::Curl
 
