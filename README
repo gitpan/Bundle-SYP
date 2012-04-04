@@ -2,7 +2,7 @@ NAME
     Bundle::SYP - SYP's cozy environment
 
 VERSION
-    version 1.0
+    version 1.1
 
 SYNOPSIS
      # Debian >= 5.0; Perl >= 5.14
@@ -17,7 +17,7 @@ CONTENTS
 
     Object::ID
 
-    AnyEvent
+    AnyEvent::Net::Curl::Queued
 
     App::Ack
 
@@ -41,9 +41,13 @@ CONTENTS
 
     Daemon::Generic
 
+    Data::Float
+
     Data::Printer
 
     Data::Printer::Filter::URI
+
+    DateTime::Format::ISO8601
 
     DateTime::Format::Strptime
 
@@ -87,15 +91,25 @@ CONTENTS
 
     File::Slurp
 
+    FindBin::libs
+
     Geo::Distance
 
     Geo::GoogleEarth::Pluggable
 
-    HTML::TreeBuilder::XPath
+    HTML::AsText::Fix
+
+    HTML::Untemplate
+
+    HTTP::Tiny
 
     JSON::Any
 
     JSON::XS
+
+    Lingua::PT::Nums2Ords
+
+    Lingua::PT::Nums2Words
 
     List::MoreUtils
 
@@ -113,15 +127,13 @@ CONTENTS
 
     MooseX::NonMoose
 
-    Net::Curl
-
     Net::Whois::Raw
 
     Number::Format
 
-    Perl::Critic
+    Parallel::ForkManager
 
-    Perl::Tags
+    Perl::Critic
 
     Perl::Tidy
 
@@ -135,6 +147,10 @@ CONTENTS
 
     Regexp::Common
 
+    Roman
+
+    Statistics::Descriptive
+
     Storable
 
     String::Similarity
@@ -147,9 +163,13 @@ CONTENTS
 
     Text::CSV_XS
 
+    Text::Fingerprint
+
     Text::TabularDisplay
 
     Text::Unidecode
+
+    Throwable
 
     Tie::Handle::CSV
 
@@ -161,11 +181,13 @@ CONTENTS
 
     URI::sftp
 
+    Unicode::CaseFold
+
     Unicode::CheckUTF8
 
     Web::Scraper
 
-    WWW::Curl
+    WWW::Mechanize
 
     XML::Rabbit
 
@@ -190,7 +212,7 @@ AUTHOR
     Stanislaw Pusep <stas@sysd.org>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2011 by Stanislaw Pusep.
+    This software is copyright (c) 2012 by Stanislaw Pusep.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.

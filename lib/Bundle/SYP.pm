@@ -5,7 +5,7 @@ package Bundle::SYP;
 use strict;
 use utf8;
 use warnings 'all';
-our $VERSION = '1.0'; # VERSION
+our $VERSION = '1.1'; # VERSION
 
 1;
 
@@ -21,7 +21,7 @@ Bundle::SYP - SYP's cozy environment
 
 =head1 VERSION
 
-version 1.0
+version 1.1
 
 =head1 SYNOPSIS
 
@@ -38,7 +38,7 @@ Term::ANSIColor
 
 Object::ID
 
-AnyEvent
+AnyEvent::Net::Curl::Queued
 
 App::Ack
 
@@ -62,9 +62,13 @@ DB_File
 
 Daemon::Generic
 
+Data::Float
+
 Data::Printer
 
 Data::Printer::Filter::URI
+
+DateTime::Format::ISO8601
 
 DateTime::Format::Strptime
 
@@ -108,15 +112,25 @@ File::ShareDir
 
 File::Slurp
 
+FindBin::libs
+
 Geo::Distance
 
 Geo::GoogleEarth::Pluggable
 
-HTML::TreeBuilder::XPath
+HTML::AsText::Fix
+
+HTML::Untemplate
+
+HTTP::Tiny
 
 JSON::Any
 
 JSON::XS
+
+Lingua::PT::Nums2Ords
+
+Lingua::PT::Nums2Words
 
 List::MoreUtils
 
@@ -134,15 +148,13 @@ Moose
 
 MooseX::NonMoose
 
-Net::Curl
-
 Net::Whois::Raw
 
 Number::Format
 
-Perl::Critic
+Parallel::ForkManager
 
-Perl::Tags
+Perl::Critic
 
 Perl::Tidy
 
@@ -156,6 +168,10 @@ Pod::Weaver::Plugin::Encoding
 
 Regexp::Common
 
+Roman
+
+Statistics::Descriptive
+
 Storable
 
 String::Similarity
@@ -168,9 +184,13 @@ Text::CSV
 
 Text::CSV_XS
 
+Text::Fingerprint
+
 Text::TabularDisplay
 
 Text::Unidecode
+
+Throwable
 
 Tie::Handle::CSV
 
@@ -182,11 +202,13 @@ URI::QueryParam
 
 URI::sftp
 
+Unicode::CaseFold
+
 Unicode::CheckUTF8
 
 Web::Scraper
 
-WWW::Curl
+WWW::Mechanize
 
 XML::Rabbit
 
@@ -210,7 +232,7 @@ Stanislaw Pusep <stas@sysd.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Stanislaw Pusep.
+This software is copyright (c) 2012 by Stanislaw Pusep.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
