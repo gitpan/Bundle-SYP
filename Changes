@@ -1,23 +1,98 @@
-Changelog for Bundle::SYP (full version at https://github.com/creaktive/Bundle-SYP/commits/master/)
+Changelog for Bundle-SYP
 
-1.1       2012-04-04
+1.2 2012-09-27T19:49:56
+ [Stanislaw Pusep <stanislav.poussep@buscapecompany.com>]
+ - updated
 
-1.0       2011-10-18
 
-0.9       2011-10-07
+v1.1 2012-04-04T21:41:11
+ [Stanislaw Pusep <stanislav.poussep@buscape-inc.com>]
+ - --Perl::Tags
 
-0.8       2011-10-07
 
-0.7       2011-09-30
+ [Stanislaw Pusep <stanislav.poussep@buscapecompany.com>]
+ - Test::Version with tab fix
 
-0.6       2011-09-29
+ - update
 
-0.5       2011-07-14
 
-0.4       2011-07-03
+v1.0 2011-10-18T20:46:53
+ [Stanislaw Pusep <stanislav.poussep@buscape-inc.com>]
+ - updates
 
-0.3       2011-07-01
+ - Changes
 
-0.2       2011-06-30
 
-0.1       2011-06-30
+v0.9 2011-10-07T15:48:22
+ [Stanislaw Pusep <stanislav.poussep@buscape-inc.com>]
+ - +XML::Rabbit
+
+ - Changes
+
+
+v0.8 2011-10-07T14:50:56
+ [Stanislaw Pusep <stanislav.poussep@buscape-inc.com>]
+ - README
+
+ - +DBIx::Class, +File::Rename, +forks
+
+ - Changes
+
+
+v0.7 2011-09-30T21:18:35
+ [Stanislaw Pusep <stanislav.poussep@buscape-inc.com>]
+ - database-related
+
+ - Changes
+
+
+v0.6 2011-09-29T20:04:58
+ [Stanislaw Pusep <stanislav.poussep@buscape-inc.com>]
+ - updates
+
+
+ [Stanislaw Pusep <stas@jacotei.com.br>]
+ - changelog update.
+
+
+v0.5 2011-07-14T12:51:25
+ [Stanislaw Pusep <creaktive@gmail.com>]
+ - changelog update.
+
+
+ [Stanislaw Pusep <stas@jacotei.com.br>]
+ - ++modules[2].
+
+ - ++modules.
+
+
+v0.4 2011-07-03T19:37:42
+ [Stanislaw Pusep <creaktive@gmail.com>]
+ - Bash::Completion's
+
+
+ [Stanislaw Pusep <stas@jacotei.com.br>]
+ - changelog update.
+
+
+v0.3 2011-07-01T16:56:59
+ [Stanislaw Pusep <stas@jacotei.com.br>]
+ - apt-get suggestion.
+
+
+v0.2 2011-06-30T19:08:54
+ [Stanislaw Pusep <stas@jacotei.com.br>]
+ - cleanup[2].
+
+ - cleanup.
+
+
+v0.1 2011-06-30T16:14:55
+ [Stanislaw Pusep <stas@jacotei.com.br>]
+ - working? [2]
+
+ - working?
+
+ - INIT
+
+
