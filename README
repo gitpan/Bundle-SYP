@@ -2,7 +2,7 @@ NAME
     Bundle::SYP - SYP's cozy environment
 
 VERSION
-    version 1.2
+    version 1.3
 
 SYNOPSIS
      # Debian >= 5.0; Perl >= 5.14
@@ -11,6 +11,10 @@ SYNOPSIS
      perl -MCPAN -e 'install Bundle::SYP'
 
 CONTENTS
+    Module::Install
+
+    XML::LibXML
+
     YAML
 
     Term::ANSIColor
@@ -49,6 +53,8 @@ CONTENTS
 
     Data::Printer
 
+    Data::Printer::Filter::JSON
+
     Data::Printer::Filter::URI
 
     DateTime::Format::ISO8601
@@ -62,6 +68,8 @@ CONTENTS
     Devel::REPL
 
     Devel::REPL::Plugin::DataPrinter
+
+    Devel::Trace
 
     Digest::MD5
 
@@ -101,15 +109,17 @@ CONTENTS
 
     FindBin::libs
 
+    Geo::DNA
+
     Geo::Distance
 
     Geo::GoogleEarth::Pluggable
 
     HTML::AsText::Fix
 
-    HTML::TreeBuilder::LibXML
+    HTML::Linear
 
-    HTML::Untemplate
+    HTML::TreeBuilder::LibXML
 
     HTTP::Tiny
 
@@ -126,6 +136,8 @@ CONTENTS
     List::MoreUtils
 
     Log::Log4perl
+
+    LWP::Protocol::Net::Curl
 
     LWP::Simple
 

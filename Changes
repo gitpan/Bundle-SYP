@@ -1,6 +1,11 @@
 Changelog for Bundle-SYP
 
-1.2 2012-09-27T19:49:56
+1.3 2012-11-14T15:54:03
+ [Stanislaw Pusep <creaktive@gmail.com>]
+ - new modules
+
+
+v1.2 2012-09-27T19:48:58
  [Stanislaw Pusep <stanislav.poussep@buscapecompany.com>]
  - updated
 
@@ -73,26 +78,5 @@ v0.4 2011-07-03T19:37:42
 
  [Stanislaw Pusep <stas@jacotei.com.br>]
  - changelog update.
-
-
-v0.3 2011-07-01T16:56:59
- [Stanislaw Pusep <stas@jacotei.com.br>]
- - apt-get suggestion.
-
-
-v0.2 2011-06-30T19:08:54
- [Stanislaw Pusep <stas@jacotei.com.br>]
- - cleanup[2].
-
- - cleanup.
-
-
-v0.1 2011-06-30T16:14:55
- [Stanislaw Pusep <stas@jacotei.com.br>]
- - working? [2]
-
- - working?
-
- - INIT
 
 
