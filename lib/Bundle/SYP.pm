@@ -4,7 +4,7 @@ package Bundle::SYP;
 use strict;
 use utf8;
 use warnings 'all';
-our $VERSION = '1.3'; # VERSION
+our $VERSION = '1.4'; # VERSION
 
 1;
 
@@ -20,7 +20,7 @@ Bundle::SYP - SYP's cozy environment
 
 =head1 VERSION
 
-version 1.3
+version 1.4
 
 =head1 SYNOPSIS
 
@@ -41,15 +41,11 @@ Term::ANSIColor
 
 Object::ID
 
-Any::Moose
-
 AnyEvent::Net::Curl::Queued
 
-App::Ack
-
-App::cpanminus
-
 App::cpanoutdated
+
+App::p
 
 App::pmodinfo
 
@@ -59,19 +55,15 @@ Bash::Completion::Plugins::perlbrew
 
 Config::General
 
-DBD::SQLite
-
-DBIx::Class
-
 DBIx::Class::Schema::Loader
 
 DB_File
 
 Daemon::Generic
 
-Data::Float
+Data::DPath
 
-Data::Printer
+Data::Float
 
 Data::Printer::Filter::JSON
 
@@ -81,8 +73,6 @@ DateTime::Format::ISO8601
 
 DateTime::Format::Strptime
 
-Devel::Cover
-
 Devel::NYTProf
 
 Devel::REPL
@@ -91,15 +81,11 @@ Devel::REPL::Plugin::DataPrinter
 
 Devel::Trace
 
-Digest::MD5
-
-Digest::SHA
-
 Digest::SHA1
 
-Dist::Zilla
-
 Dist::Zilla::App::Command::cover
+
+Dist::Zilla::Plugin::ChangelogFromGit::CPAN::Changes
 
 Dist::Zilla::Plugin::CopyFilesFromBuild
 
@@ -123,10 +109,6 @@ EV
 
 File::Rename
 
-File::ShareDir
-
-File::Slurp
-
 FindBin::libs
 
 Geo::DNA
@@ -141,37 +123,21 @@ HTML::Linear
 
 HTML::TreeBuilder::LibXML
 
-HTTP::Tiny
-
 Imager
 
-JSON::Any
-
-JSON::XS
-
 Lingua::PT::Nums2Ords
-
-Lingua::PT::Nums2Words
-
-List::MoreUtils
 
 Log::Log4perl
 
 LWP::Protocol::Net::Curl
 
-LWP::Simple
-
-Memoize
+LWP::Protocol::https
 
 Mojolicious
 
 MongoDB
 
-Moose
-
 Mouse
-
-MooseX::NonMoose
 
 Net::Whois::Raw
 
@@ -181,13 +147,9 @@ Parallel::ForkManager
 
 Perl::Critic
 
-Perl::Tidy
-
-Pod::Elemental
+Perl::Critic::Policy::Modules::ProhibitModuleShebang
 
 Pod::Elemental::Transformer::List
-
-Pod::Simple
 
 Pod::Weaver::Plugin::Encoding
 
@@ -195,9 +157,9 @@ Regexp::Common
 
 Roman
 
-Statistics::Descriptive
+Sort::Key::Top
 
-Storable
+Statistics::Descriptive
 
 String::Similarity
 
@@ -207,19 +169,13 @@ Term::ReadLine::Gnu
 
 Text::CSV
 
-Text::CSV_XS
-
 Text::Fingerprint
 
 Text::TabularDisplay
 
-Text::Unidecode
-
 Throwable
 
 Tie::Handle::CSV
-
-Tie::IxHash
 
 URI::Escape
 
@@ -239,8 +195,6 @@ XML::Rabbit
 
 XML::SAX::ExpatXS
 
-common::sense
-
 forks
 
 lexicals
@@ -257,7 +211,7 @@ Stanislaw Pusep <stas@sysd.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Stanislaw Pusep.
+This software is copyright (c) 2013 by Stanislaw Pusep.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
