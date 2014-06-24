@@ -1,16 +1,20 @@
 NAME
+
     Bundle::SYP - SYP's cozy environment
 
 VERSION
-    version 1.4
+
+    version 1.5
 
 SYNOPSIS
+
      # Debian >= 5.0; Perl >= 5.14
      sudo apt-get install curl gcc git-core libssl-dev libcurl4-gnutls-dev libdb-dev libexpat-dev libncurses-dev libreadline-dev libxml2-dev
-
+    
      perl -MCPAN -e 'install Bundle::SYP'
 
 CONTENTS
+
     Module::Install
 
     XML::LibXML
@@ -131,8 +135,6 @@ CONTENTS
 
     Pod::Elemental::Transformer::List
 
-    Pod::Weaver::Plugin::Encoding
-
     Regexp::Common
 
     Roman
@@ -180,19 +182,22 @@ CONTENTS
     lexicals
 
 CAVEATS
-    I know there's a "Task::" way of doing it, and I could also play around
-    with "[Prereqs]" section of my dist.ini, and that using Dist::Zilla to
-    make a "Bundle::" is an overkill.
+
+    I know there's a Task:: way of doing it, and I could also play around
+    with [Prereqs] section of my dist.ini, and that using Dist::Zilla to
+    make a Bundle:: is an overkill.
 
     But I simply like to stick with the idea that the first three modules
     (YAML, Term::ANSIColor, Object::ID) will be installed before the rest,
     disregarding the alphabetical order.
 
 AUTHOR
+
     Stanislaw Pusep <stas@sysd.org>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2013 by Stanislaw Pusep.
+
+    This software is copyright (c) 2014 by Stanislaw Pusep.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.

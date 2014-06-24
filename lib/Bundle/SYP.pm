@@ -4,7 +4,7 @@ package Bundle::SYP;
 use strict;
 use utf8;
 use warnings 'all';
-our $VERSION = '1.4'; # VERSION
+our $VERSION = '1.5'; # VERSION
 
 1;
 
@@ -12,7 +12,7 @@ __END__
 
 =pod
 
-=encoding utf8
+=encoding UTF-8
 
 =head1 NAME
 
@@ -20,7 +20,7 @@ Bundle::SYP - SYP's cozy environment
 
 =head1 VERSION
 
-version 1.4
+version 1.5
 
 =head1 SYNOPSIS
 
@@ -151,8 +151,6 @@ Perl::Critic::Policy::Modules::ProhibitModuleShebang
 
 Pod::Elemental::Transformer::List
 
-Pod::Weaver::Plugin::Encoding
-
 Regexp::Common
 
 Roman
@@ -211,7 +209,7 @@ Stanislaw Pusep <stas@sysd.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2013 by Stanislaw Pusep.
+This software is copyright (c) 2014 by Stanislaw Pusep.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
